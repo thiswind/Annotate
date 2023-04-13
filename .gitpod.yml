@@ -1,0 +1,10 @@
+image: jekyll/jekyll:latest
+
+# 自定义端口
+ports:
+  - port: 4000
+    onOpen: open-browser
+
+# 安装并启动 Jekyll
+tasks:
+  - command: jekyll serve --host 0.0.0.0
