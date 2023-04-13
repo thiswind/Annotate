@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/jekyll",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "password": "myvscode"
+    }
+  }
+}
